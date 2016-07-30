@@ -1,0 +1,103 @@
+html body{
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    background-image: url("http://i.imgur.com/UEvnvBl.jpg");
+    margin-bottom: 30px;
+}
+
+header div h1{
+    margin-left: 30px;
+}
+
+header div a{
+    font-size: 1.2em;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav div{
+    margin: auto;
+}
+
+header .row{
+    display: flex;
+    align-items: center;
+}
+
+#oapButton{
+    color: black;
+}
+
+#oapButton:hover{
+    color: #2C7BB2;
+}
+
+.jumbotron{
+    background-image: url("./pictures/jumbo.JPG");
+    background-size: 120%;
+    background-position: -180px -275px;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .container .row.text-center h2{
+    margin-top: -15px;
+}
+
+.jumbotron .btn{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.row.caption{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -25px;
+}
+
+.mult img{
+    padding-bottom: 40px;
+}
+
+div img{
+    max-width: 100%;
+
+}
+
+#seeMoreBtn{
+    margin-top: 40px;
+}
+
+.navPick{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15%;
+    background-color: #F8D1A6;
+    text-decoration: underline;
+    font-size: 1.4em;
+}
+
+#aboutUs{
+    font-size: 4rem;
+    margin-top: 160px;
+    border: 2px solid black;
+    padding: 35px;
+    font-family: 'Indie Flower';
+    font-weight: 700;
+}
+
+div .row.centerList{
+    margin-left: 275px;
+    font-size: 3rem;
+}
+
+footer{
+    margin-top: 5px;
+}
+
+#footerXSpace{
+    margin-top: 25px;
+}
